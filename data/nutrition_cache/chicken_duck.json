@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "chicken_duck",
+  "normalized_query": "chicken duck",
+  "usda_food_name": "Chicken, meat only, cooked, roasted",
+  "usda_fdc_id": 171477,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 165.0,
+    "protein_g": 31.02,
+    "carbohydrates_g": 0.0,
+    "fat_g": 3.57,
+    "fiber_g": 0.0,
+    "sodium_mg": 74.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

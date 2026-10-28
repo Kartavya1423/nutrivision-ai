@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "date",
+  "normalized_query": "date",
+  "usda_food_name": "Dates, medjool",
+  "usda_fdc_id": 168191,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 277.0,
+    "protein_g": 1.81,
+    "carbohydrates_g": 75.0,
+    "fat_g": 0.15,
+    "fiber_g": 6.7,
+    "sodium_mg": 1.0,
+    "potassium_mg": 696.0,
+    "calcium_mg": 64.0,
+    "iron_mg": 0.9,
+    "sugars_g": 66.5
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "LIVE_USDA",
+  "retrieved_at": "2026-10-19T06:56:10.188572+00:00"
+}

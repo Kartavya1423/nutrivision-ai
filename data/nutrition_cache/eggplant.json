@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "eggplant",
+  "normalized_query": "eggplant",
+  "usda_food_name": "Eggplant, raw",
+  "usda_fdc_id": 169228,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 25.0,
+    "protein_g": 0.98,
+    "carbohydrates_g": 5.88,
+    "fat_g": 0.18,
+    "fiber_g": 3.0,
+    "sodium_mg": 2.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

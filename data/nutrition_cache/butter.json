@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "butter",
+  "normalized_query": "butter",
+  "usda_food_name": "Butter, Clarified butter (ghee)",
+  "usda_fdc_id": 171314,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 900.0,
+    "protein_g": 0.0,
+    "carbohydrates_g": 0.0,
+    "fat_g": 100.0,
+    "fiber_g": 0.0,
+    "sodium_mg": 0.0,
+    "potassium_mg": null,
+    "calcium_mg": 0.0,
+    "iron_mg": 0.0,
+    "sugars_g": 0.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "LIVE_USDA",
+  "retrieved_at": "2026-10-20T09:59:00.638573+00:00"
+}

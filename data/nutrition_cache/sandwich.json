@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "sandwich",
+  "normalized_query": "sandwich",
+  "usda_food_name": "Sandwich, deli meat and cheese on wheat bread",
+  "usda_fdc_id": 1102644,
+  "data_type": "Survey (FNDDS)",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 236.0,
+    "protein_g": 13.5,
+    "carbohydrates_g": 22.8,
+    "fat_g": 10.2,
+    "fiber_g": 2.1,
+    "sodium_mg": 680.0,
+    "potassium_mg": 225.0,
+    "calcium_mg": 140.0,
+    "iron_mg": 1.9,
+    "sugars_g": 3.4
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-15T12:00:00Z"
+}

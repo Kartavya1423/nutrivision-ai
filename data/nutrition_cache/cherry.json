@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "cherry",
+  "normalized_query": "cherry",
+  "usda_food_name": "Cherries, sweet, raw",
+  "usda_fdc_id": 171719,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 63.0,
+    "protein_g": 1.06,
+    "carbohydrates_g": 16.01,
+    "fat_g": 0.2,
+    "fiber_g": 2.1,
+    "sodium_mg": 0.0,
+    "potassium_mg": 222.0,
+    "calcium_mg": 13.0,
+    "iron_mg": 0.36,
+    "sugars_g": 12.82
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

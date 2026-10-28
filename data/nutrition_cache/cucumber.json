@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "cucumber",
+  "normalized_query": "cucumber",
+  "usda_food_name": "Cucumber, with peel, raw",
+  "usda_fdc_id": 169225,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 15.0,
+    "protein_g": 0.65,
+    "carbohydrates_g": 3.63,
+    "fat_g": 0.11,
+    "fiber_g": 0.5,
+    "sodium_mg": 2.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

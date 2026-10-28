@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "lime",
+  "normalized_query": "lime",
+  "usda_food_name": "Limes, raw",
+  "usda_fdc_id": 168155,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 30.0,
+    "protein_g": 0.7,
+    "carbohydrates_g": 10.54,
+    "fat_g": 0.2,
+    "fiber_g": 2.8,
+    "sodium_mg": 2.0,
+    "potassium_mg": 102.0,
+    "calcium_mg": 33.0,
+    "iron_mg": 0.6,
+    "sugars_g": 1.69
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

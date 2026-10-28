@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "potato",
+  "normalized_query": "potato",
+  "usda_food_name": "Potatoes, baked, flesh and skin, without salt",
+  "usda_fdc_id": 170026,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 93.0,
+    "protein_g": 2.5,
+    "carbohydrates_g": 21.15,
+    "fat_g": 0.13,
+    "fiber_g": 2.2,
+    "sodium_mg": 10.0,
+    "potassium_mg": 535.0,
+    "calcium_mg": 15.0,
+    "iron_mg": 1.08,
+    "sugars_g": 1.15
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

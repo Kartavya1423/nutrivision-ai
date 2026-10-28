@@ -1,0 +1,181 @@
+{
+  "model": "EfficientNet-B4",
+  "task": "Fruit Classification (6 Classes)",
+  "dataset": "data/raw/updated dataset",
+  "timestamp": "2026-10-26T21:26:06.175449+00:00",
+  "best_epoch": 2,
+  "val_metrics": {
+    "epoch": 2,
+    "val_loss": 0.161,
+    "val_accuracy": 0.9667,
+    "val_macro_f1": 0.967,
+    "per_class": {
+      "Apple_Good": {
+        "precision": 1.0,
+        "recall": 0.9333,
+        "f1": 0.9655,
+        "support": 15
+      },
+      "Banana_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "Guava_Good": {
+        "precision": 0.9333,
+        "recall": 0.9333,
+        "f1": 0.9333,
+        "support": 15
+      },
+      "Lime_Good": {
+        "precision": 1.0,
+        "recall": 0.9333,
+        "f1": 0.9655,
+        "support": 15
+      },
+      "Orange_Good": {
+        "precision": 0.8824,
+        "recall": 1.0,
+        "f1": 0.9375,
+        "support": 15
+      },
+      "Pomegranate_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      }
+    }
+  },
+  "test_metrics": {
+    "test_loss": 0.1722,
+    "test_accuracy": 0.9444,
+    "test_macro_f1": 0.9456,
+    "per_class": {
+      "Apple_Good": {
+        "precision": 1.0,
+        "recall": 0.8667,
+        "f1": 0.9286,
+        "support": 15
+      },
+      "Banana_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "Guava_Good": {
+        "precision": 0.7778,
+        "recall": 0.9333,
+        "f1": 0.8485,
+        "support": 15
+      },
+      "Lime_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      },
+      "Orange_Good": {
+        "precision": 0.9286,
+        "recall": 0.8667,
+        "f1": 0.8966,
+        "support": 15
+      },
+      "Pomegranate_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 15
+      }
+    },
+    "confusion_matrix": [
+      [
+        13,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        15,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        15,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0,
+        13,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        15
+      ]
+    ]
+  },
+  "classes": [
+    "Apple_Good",
+    "Banana_Good",
+    "Guava_Good",
+    "Lime_Good",
+    "Orange_Good",
+    "Pomegranate_Good"
+  ],
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.8122,
+      "train_acc": 0.7643,
+      "val_loss": 0.1488,
+      "val_acc": 0.9333,
+      "val_macro_f1": 0.9348,
+      "elapsed_seconds": 127.57
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.1677,
+      "train_acc": 0.9429,
+      "val_loss": 0.161,
+      "val_acc": 0.9667,
+      "val_macro_f1": 0.967,
+      "elapsed_seconds": 125.03
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.1123,
+      "train_acc": 0.9714,
+      "val_loss": 0.0963,
+      "val_acc": 0.9667,
+      "val_macro_f1": 0.967,
+      "elapsed_seconds": 124.81
+    }
+  ]
+}

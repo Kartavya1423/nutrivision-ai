@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "pomegranate",
+  "normalized_query": "pomegranate",
+  "usda_food_name": "Pomegranates, raw",
+  "usda_fdc_id": 169134,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 83.0,
+    "protein_g": 1.67,
+    "carbohydrates_g": 18.7,
+    "fat_g": 1.17,
+    "fiber_g": 4.0,
+    "sodium_mg": 3.0,
+    "potassium_mg": 236.0,
+    "calcium_mg": 10.0,
+    "iron_mg": 0.3,
+    "sugars_g": 13.67
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

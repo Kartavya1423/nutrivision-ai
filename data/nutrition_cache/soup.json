@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "soup",
+  "normalized_query": "soup",
+  "usda_food_name": "Vegetable soup, canned, ready-to-serve",
+  "usda_fdc_id": 171542,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 36.0,
+    "protein_g": 1.1,
+    "carbohydrates_g": 6.8,
+    "fat_g": 0.5,
+    "fiber_g": 1.2,
+    "sodium_mg": 340.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

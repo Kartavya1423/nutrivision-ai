@@ -1,0 +1,44 @@
+{
+  "classes": {
+    "0": "fresh",
+    "1": "rotten"
+  },
+  "food_classes": [
+    "apple",
+    "banana",
+    "orange"
+  ],
+  "subclasses": {
+    "freshapples": {
+      "food": "apple",
+      "freshness": "fresh",
+      "label": 0
+    },
+    "freshbanana": {
+      "food": "banana",
+      "freshness": "fresh",
+      "label": 0
+    },
+    "freshoranges": {
+      "food": "orange",
+      "freshness": "fresh",
+      "label": 0
+    },
+    "rottenapples": {
+      "food": "apple",
+      "freshness": "rotten",
+      "label": 1
+    },
+    "rottenbanana": {
+      "food": "banana",
+      "freshness": "rotten",
+      "label": 1
+    },
+    "rottenoranges": {
+      "food": "orange",
+      "freshness": "rotten",
+      "label": 1
+    }
+  },
+  "description": "Binary freshness classification (0: fresh, 1: rotten) across produce categories (apple, banana, orange)."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "pineapple",
+  "normalized_query": "pineapple",
+  "usda_food_name": "Pineapple, raw, all varieties",
+  "usda_fdc_id": 169124,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 50.0,
+    "protein_g": 0.54,
+    "carbohydrates_g": 13.12,
+    "fat_g": 0.12,
+    "fiber_g": 1.4,
+    "sodium_mg": 1.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

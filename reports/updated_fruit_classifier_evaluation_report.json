@@ -1,0 +1,244 @@
+{
+  "model": "EfficientNet-B4",
+  "task": "Fruit Classification (6 Classes)",
+  "dataset": "data/raw/updated dataset",
+  "timestamp": "2026-10-27T12:01:14.370224+00:00",
+  "best_epoch": 8,
+  "val_metrics": {
+    "epoch": 8,
+    "val_loss": 0.0036,
+    "val_accuracy": 0.9994,
+    "val_macro_f1": 0.999,
+    "per_class": {
+      "Apple_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 172
+      },
+      "Banana_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 166
+      },
+      "Guava_Good": {
+        "precision": 1.0,
+        "recall": 0.9942,
+        "f1": 0.9971,
+        "support": 172
+      },
+      "Lime_Good": {
+        "precision": 0.9939,
+        "recall": 1.0,
+        "f1": 0.997,
+        "support": 164
+      },
+      "Orange_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 182
+      },
+      "Pomegranate_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 891
+      }
+    }
+  },
+  "test_metrics": {
+    "test_loss": 0.0071,
+    "test_accuracy": 0.9989,
+    "test_macro_f1": 0.9981,
+    "per_class": {
+      "Apple_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 173
+      },
+      "Banana_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 168
+      },
+      "Guava_Good": {
+        "precision": 1.0,
+        "recall": 0.9943,
+        "f1": 0.9971,
+        "support": 174
+      },
+      "Lime_Good": {
+        "precision": 0.988,
+        "recall": 1.0,
+        "f1": 0.994,
+        "support": 165
+      },
+      "Orange_Good": {
+        "precision": 1.0,
+        "recall": 0.9945,
+        "f1": 0.9973,
+        "support": 183
+      },
+      "Pomegranate_Good": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 891
+      }
+    },
+    "confusion_matrix": [
+      [
+        173,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        168,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        173,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        165,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        182,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        891
+      ]
+    ]
+  },
+  "classes": [
+    "Apple_Good",
+    "Banana_Good",
+    "Guava_Good",
+    "Lime_Good",
+    "Orange_Good",
+    "Pomegranate_Good"
+  ],
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.177,
+      "train_acc": 0.9558,
+      "val_loss": 0.0193,
+      "val_acc": 0.9954,
+      "val_macro_f1": 0.9926,
+      "elapsed_seconds": 361.57
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.0496,
+      "train_acc": 0.9881,
+      "val_loss": 0.0876,
+      "val_acc": 0.992,
+      "val_macro_f1": 0.9863,
+      "elapsed_seconds": 363.26
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.0463,
+      "train_acc": 0.9902,
+      "val_loss": 0.0044,
+      "val_acc": 0.9983,
+      "val_macro_f1": 0.9975,
+      "elapsed_seconds": 363.74
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.0186,
+      "train_acc": 0.995,
+      "val_loss": 0.0038,
+      "val_acc": 0.9989,
+      "val_macro_f1": 0.998,
+      "elapsed_seconds": 359.05
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.0174,
+      "train_acc": 0.996,
+      "val_loss": 0.0179,
+      "val_acc": 0.9966,
+      "val_macro_f1": 0.9946,
+      "elapsed_seconds": 361.39
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.0123,
+      "train_acc": 0.9969,
+      "val_loss": 0.0083,
+      "val_acc": 0.9971,
+      "val_macro_f1": 0.9951,
+      "elapsed_seconds": 365.14
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.0038,
+      "train_acc": 0.9987,
+      "val_loss": 0.0072,
+      "val_acc": 0.9983,
+      "val_macro_f1": 0.9971,
+      "elapsed_seconds": 362.04
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.0039,
+      "train_acc": 0.9989,
+      "val_loss": 0.0036,
+      "val_acc": 0.9994,
+      "val_macro_f1": 0.999,
+      "elapsed_seconds": 361.66
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.0011,
+      "train_acc": 0.9996,
+      "val_loss": 0.0051,
+      "val_acc": 0.9994,
+      "val_macro_f1": 0.999,
+      "elapsed_seconds": 361.62
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.0008,
+      "train_acc": 0.9998,
+      "val_loss": 0.0043,
+      "val_acc": 0.9994,
+      "val_macro_f1": 0.999,
+      "elapsed_seconds": 361.93
+    }
+  ]
+}

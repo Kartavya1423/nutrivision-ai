@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "strawberry",
+  "normalized_query": "strawberry",
+  "usda_food_name": "Strawberries, raw",
+  "usda_fdc_id": 167762,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 32.0,
+    "protein_g": 0.67,
+    "carbohydrates_g": 7.68,
+    "fat_g": 0.3,
+    "fiber_g": 2.0,
+    "sodium_mg": 1.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

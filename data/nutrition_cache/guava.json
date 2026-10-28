@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "guava",
+  "normalized_query": "guava",
+  "usda_food_name": "Guavas, common, raw",
+  "usda_fdc_id": 173044,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 68.0,
+    "protein_g": 2.55,
+    "carbohydrates_g": 14.32,
+    "fat_g": 0.95,
+    "fiber_g": 5.4,
+    "sodium_mg": 2.0,
+    "potassium_mg": 417.0,
+    "calcium_mg": 18.0,
+    "iron_mg": 0.26,
+    "sugars_g": 8.92
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

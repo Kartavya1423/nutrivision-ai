@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "plum",
+  "normalized_query": "plum",
+  "usda_food_name": "Plums, raw",
+  "usda_fdc_id": 169949,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 46.0,
+    "protein_g": 0.7,
+    "carbohydrates_g": 11.42,
+    "fat_g": 0.28,
+    "fiber_g": 1.4,
+    "sodium_mg": 0.0,
+    "potassium_mg": 157.0,
+    "calcium_mg": 6.0,
+    "iron_mg": 0.17,
+    "sugars_g": 9.92
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

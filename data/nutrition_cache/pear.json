@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "pear",
+  "normalized_query": "pear",
+  "usda_food_name": "Pears, raw",
+  "usda_fdc_id": 169125,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 57.0,
+    "protein_g": 0.36,
+    "carbohydrates_g": 15.23,
+    "fat_g": 0.14,
+    "fiber_g": 3.1,
+    "sodium_mg": 1.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

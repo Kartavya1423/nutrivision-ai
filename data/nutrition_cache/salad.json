@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "salad",
+  "normalized_query": "salad",
+  "usda_food_name": "Vegetable salad, tossed, without dressing",
+  "usda_fdc_id": 170438,
+  "data_type": "Survey (FNDDS)",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 17.0,
+    "protein_g": 1.2,
+    "carbohydrates_g": 3.3,
+    "fat_g": 0.2,
+    "fiber_g": 1.6,
+    "sodium_mg": 20.0,
+    "potassium_mg": 214.0,
+    "calcium_mg": 29.0,
+    "iron_mg": 0.8,
+    "sugars_g": 1.4
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

@@ -1,0 +1,22 @@
+{
+  "model": "yolo11n.pt",
+  "epochs_completed": 6,
+  "batch_size": 16,
+  "image_size": 320,
+  "fraction": 0.08,
+  "optimizer": "auto",
+  "lr0": 0.01,
+  "warmup_epochs": 1.0,
+  "device": "cpu",
+  "hardware": {
+    "cuda_available": false,
+    "device_count": 0,
+    "device_name": "CPU",
+    "pytorch_version": "2.14.0+cpu",
+    "recommended_device": "cpu"
+  },
+  "training_duration_seconds": 4106.95,
+  "run_directory": "models\\detection\\yolo11\\phase2_fixed_run",
+  "best_checkpoint": "models\\detection\\yolo11\\best.pt",
+  "run_best_checkpoint": "models\\detection\\yolo11\\phase2_fixed_run\\weights\\best.pt"
+}

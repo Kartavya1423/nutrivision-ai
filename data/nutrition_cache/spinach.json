@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "spinach",
+  "normalized_query": "spinach",
+  "usda_food_name": "Spinach, raw",
+  "usda_fdc_id": 168462,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 23.0,
+    "protein_g": 2.86,
+    "carbohydrates_g": 3.63,
+    "fat_g": 0.39,
+    "fiber_g": 2.2,
+    "sodium_mg": 79.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

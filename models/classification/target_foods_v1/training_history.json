@@ -1,0 +1,400 @@
+{
+  "config": {
+    "model_architecture": "efficientnet_b4",
+    "num_classes": 21,
+    "class_names": [
+      "apple",
+      "banana",
+      "bread",
+      "broccoli",
+      "burger",
+      "cake",
+      "chicken",
+      "cucumber",
+      "egg",
+      "french_fries",
+      "grape",
+      "ice_cream",
+      "lettuce",
+      "mango",
+      "orange",
+      "pineapple",
+      "pizza",
+      "spinach",
+      "strawberry",
+      "tomato",
+      "watermelon"
+    ],
+    "image_size": 224,
+    "batch_size": 16,
+    "num_epochs": 20,
+    "stage1_epochs": 5,
+    "stage2_epochs": 15,
+    "patience": 5,
+    "label_smoothing": 0.05,
+    "weight_decay": 0.0001,
+    "random_seed": 42,
+    "device": "cpu",
+    "dataset": "target_foods_v1",
+    "backbone_initialization": "efficientnet_b4_food.pth"
+  },
+  "best_summary": {
+    "epoch": 19,
+    "val_accuracy": 0.5705,
+    "val_macro_f1": 0.4309,
+    "val_loss": 2.271,
+    "train_accuracy": 0.764,
+    "train_loss": 1.7236,
+    "per_class": {
+      "apple": {
+        "precision": 0.9667,
+        "recall": 0.7632,
+        "f1": 0.8529,
+        "support": 38
+      },
+      "banana": {
+        "precision": 0.9394,
+        "recall": 0.8158,
+        "f1": 0.8732,
+        "support": 38
+      },
+      "bread": {
+        "precision": 0.5789,
+        "recall": 0.3438,
+        "f1": 0.4314,
+        "support": 32
+      },
+      "broccoli": {
+        "precision": 0.4286,
+        "recall": 0.75,
+        "f1": 0.5455,
+        "support": 8
+      },
+      "burger": {
+        "precision": 0.7143,
+        "recall": 0.3125,
+        "f1": 0.4348,
+        "support": 16
+      },
+      "cake": {
+        "precision": 0.2222,
+        "recall": 0.25,
+        "f1": 0.2353,
+        "support": 8
+      },
+      "chicken": {
+        "precision": 0.6429,
+        "recall": 0.5625,
+        "f1": 0.6,
+        "support": 16
+      },
+      "cucumber": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 8
+      },
+      "egg": {
+        "precision": 0.4783,
+        "recall": 0.55,
+        "f1": 0.5116,
+        "support": 20
+      },
+      "french_fries": {
+        "precision": 0.25,
+        "recall": 0.625,
+        "f1": 0.3571,
+        "support": 8
+      },
+      "grape": {
+        "precision": 0.4,
+        "recall": 0.3333,
+        "f1": 0.3636,
+        "support": 6
+      },
+      "ice_cream": {
+        "precision": 0.2857,
+        "recall": 0.25,
+        "f1": 0.2667,
+        "support": 8
+      },
+      "lettuce": {
+        "precision": 0.2,
+        "recall": 0.25,
+        "f1": 0.2222,
+        "support": 8
+      },
+      "mango": {
+        "precision": 0.7692,
+        "recall": 0.9091,
+        "f1": 0.8333,
+        "support": 11
+      },
+      "orange": {
+        "precision": 0.9688,
+        "recall": 0.8378,
+        "f1": 0.8986,
+        "support": 37
+      },
+      "pineapple": {
+        "precision": 0.2381,
+        "recall": 0.625,
+        "f1": 0.3448,
+        "support": 8
+      },
+      "pizza": {
+        "precision": 0.1111,
+        "recall": 0.125,
+        "f1": 0.1176,
+        "support": 8
+      },
+      "spinach": {
+        "precision": 0.0833,
+        "recall": 0.5,
+        "f1": 0.1429,
+        "support": 2
+      },
+      "strawberry": {
+        "precision": 0.3333,
+        "recall": 0.125,
+        "f1": 0.1818,
+        "support": 8
+      },
+      "tomato": {
+        "precision": 0.619,
+        "recall": 0.8125,
+        "f1": 0.7027,
+        "support": 16
+      },
+      "watermelon": {
+        "precision": 0.1429,
+        "recall": 0.125,
+        "f1": 0.1333,
+        "support": 8
+      }
+    }
+  },
+  "total_time_seconds": 2293.45,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.9634,
+      "train_accuracy": 0.3898,
+      "val_loss": 2.8101,
+      "val_accuracy": 0.4808,
+      "val_macro_f1": 0.3499,
+      "overfitting_gap": -0.091,
+      "duration_s": 114.0,
+      "stage": 1
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.5441,
+      "train_accuracy": 0.6214,
+      "val_loss": 2.5736,
+      "val_accuracy": 0.4968,
+      "val_macro_f1": 0.3592,
+      "overfitting_gap": 0.1246,
+      "duration_s": 115.8,
+      "stage": 1
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.2706,
+      "train_accuracy": 0.6716,
+      "val_loss": 2.4666,
+      "val_accuracy": 0.5256,
+      "val_macro_f1": 0.3867,
+      "overfitting_gap": 0.1459,
+      "duration_s": 114.7,
+      "stage": 1
+    },
+    {
+      "epoch": 4,
+      "train_loss": 2.1007,
+      "train_accuracy": 0.7122,
+      "val_loss": 2.3759,
+      "val_accuracy": 0.5353,
+      "val_macro_f1": 0.3876,
+      "overfitting_gap": 0.1769,
+      "duration_s": 115.8,
+      "stage": 1
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.9649,
+      "train_accuracy": 0.7217,
+      "val_loss": 2.3435,
+      "val_accuracy": 0.5288,
+      "val_macro_f1": 0.3829,
+      "overfitting_gap": 0.1928,
+      "duration_s": 113.2,
+      "stage": 1
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.8749,
+      "train_accuracy": 0.739,
+      "val_loss": 2.3241,
+      "val_accuracy": 0.5353,
+      "val_macro_f1": 0.4001,
+      "overfitting_gap": 0.2037,
+      "duration_s": 113.6,
+      "stage": 2
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.8348,
+      "train_accuracy": 0.7623,
+      "val_loss": 2.3017,
+      "val_accuracy": 0.5449,
+      "val_macro_f1": 0.3992,
+      "overfitting_gap": 0.2174,
+      "duration_s": 111.9,
+      "stage": 2
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.8172,
+      "train_accuracy": 0.7502,
+      "val_loss": 2.3124,
+      "val_accuracy": 0.5321,
+      "val_macro_f1": 0.389,
+      "overfitting_gap": 0.2182,
+      "duration_s": 111.0,
+      "stage": 2
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.8083,
+      "train_accuracy": 0.7632,
+      "val_loss": 2.2905,
+      "val_accuracy": 0.5545,
+      "val_macro_f1": 0.4045,
+      "overfitting_gap": 0.2087,
+      "duration_s": 111.4,
+      "stage": 2
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.768,
+      "train_accuracy": 0.7632,
+      "val_loss": 2.2814,
+      "val_accuracy": 0.5513,
+      "val_macro_f1": 0.4119,
+      "overfitting_gap": 0.2119,
+      "duration_s": 109.3,
+      "stage": 2
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.7471,
+      "train_accuracy": 0.7666,
+      "val_loss": 2.2846,
+      "val_accuracy": 0.5513,
+      "val_macro_f1": 0.4132,
+      "overfitting_gap": 0.2154,
+      "duration_s": 110.6,
+      "stage": 2
+    },
+    {
+      "epoch": 12,
+      "train_loss": 1.7688,
+      "train_accuracy": 0.7545,
+      "val_loss": 2.2571,
+      "val_accuracy": 0.5641,
+      "val_macro_f1": 0.4221,
+      "overfitting_gap": 0.1904,
+      "duration_s": 111.1,
+      "stage": 2
+    },
+    {
+      "epoch": 13,
+      "train_loss": 1.7576,
+      "train_accuracy": 0.7684,
+      "val_loss": 2.2625,
+      "val_accuracy": 0.5481,
+      "val_macro_f1": 0.4124,
+      "overfitting_gap": 0.2203,
+      "duration_s": 113.1,
+      "stage": 2
+    },
+    {
+      "epoch": 14,
+      "train_loss": 1.7214,
+      "train_accuracy": 0.771,
+      "val_loss": 2.2733,
+      "val_accuracy": 0.5609,
+      "val_macro_f1": 0.4269,
+      "overfitting_gap": 0.2101,
+      "duration_s": 113.1,
+      "stage": 2
+    },
+    {
+      "epoch": 15,
+      "train_loss": 1.6994,
+      "train_accuracy": 0.7727,
+      "val_loss": 2.266,
+      "val_accuracy": 0.5609,
+      "val_macro_f1": 0.4241,
+      "overfitting_gap": 0.2118,
+      "duration_s": 113.1,
+      "stage": 2
+    },
+    {
+      "epoch": 16,
+      "train_loss": 1.7093,
+      "train_accuracy": 0.7623,
+      "val_loss": 2.2663,
+      "val_accuracy": 0.5449,
+      "val_macro_f1": 0.4155,
+      "overfitting_gap": 0.2174,
+      "duration_s": 112.0,
+      "stage": 2
+    },
+    {
+      "epoch": 17,
+      "train_loss": 1.6999,
+      "train_accuracy": 0.7701,
+      "val_loss": 2.2455,
+      "val_accuracy": 0.5545,
+      "val_macro_f1": 0.4135,
+      "overfitting_gap": 0.2156,
+      "duration_s": 110.4,
+      "stage": 2
+    },
+    {
+      "epoch": 18,
+      "train_loss": 1.7003,
+      "train_accuracy": 0.7658,
+      "val_loss": 2.2849,
+      "val_accuracy": 0.5641,
+      "val_macro_f1": 0.4284,
+      "overfitting_gap": 0.2017,
+      "duration_s": 127.8,
+      "stage": 2
+    },
+    {
+      "epoch": 19,
+      "train_loss": 1.7236,
+      "train_accuracy": 0.764,
+      "val_loss": 2.271,
+      "val_accuracy": 0.5705,
+      "val_macro_f1": 0.4309,
+      "overfitting_gap": 0.1935,
+      "duration_s": 123.5,
+      "stage": 2
+    },
+    {
+      "epoch": 20,
+      "train_loss": 1.6956,
+      "train_accuracy": 0.7727,
+      "val_loss": 2.2542,
+      "val_accuracy": 0.5449,
+      "val_macro_f1": 0.4159,
+      "overfitting_gap": 0.2278,
+      "duration_s": 124.8,
+      "stage": 2
+    }
+  ]
+}

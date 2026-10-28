@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "cauliflower",
+  "normalized_query": "cauliflower",
+  "usda_food_name": "Cauliflower, raw",
+  "usda_fdc_id": 169986,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 25.0,
+    "protein_g": 1.92,
+    "carbohydrates_g": 4.97,
+    "fat_g": 0.28,
+    "fiber_g": 2.0,
+    "sodium_mg": 30.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

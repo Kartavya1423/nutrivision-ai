@@ -1,0 +1,123 @@
+# ==============================================================================
+# NutriVision AI: Central Configuration File
+# Project: An Intelligent Food Recognition, Weight Estimation, Freshness
+#          Detection, and Nutritional Analysis System Using Computer Vision
+# ==============================================================================
+
+project:
+  name: "NutriVision AI"
+  version: "0.1.0"
+  description: "Computer vision system for food detection, segmentation, weight estimation, freshness scoring, and nutrition analysis"
+  seed: 42
+
+system:
+  device: "auto"        # "cuda", "cpu", or "auto"
+  num_workers: 4
+  log_level: "INFO"
+
+paths:
+  data_root: "data"
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  detection_data: "data/detection"
+  classification_data: "data/classification"
+  segmentation_data: "data/segmentation"
+  freshness_data: "data/freshness"
+  models_root: "models"
+  detection_models: "models/detection"
+  classification_models: "models/classification"
+  segmentation_models: "models/segmentation"
+  depth_models: "models/depth"
+  freshness_models: "models/freshness"
+  reports: "data/reports"
+  splits: "data/splits"
+  foodseg103_dir: "data/raw/FoodSeg103"
+  uecfoodpix_dir: "data/raw/UECFoodPixComplete"
+  fruits360_dir: "data/raw/Fruits360_100x100"
+  fruits360_multi_dir: "data/raw/Fruits360_multi"
+  weight_dataset_dir: "data/raw/weight_dataset"
+  freshness_dataset_dir: "data/raw/freshness_dataset"
+  updated_fruit_dataset_dir: "data/raw/updated dataset"
+  fruit_classifier_models: "models/classification/fruit_classifier_corrected_split"
+
+# --- Module 2: Detection Configuration ---
+detection:
+  model_type: "yolo11"
+  model_variant: "yolo11n.pt"   # nano / small / medium
+  conf_threshold: 0.35
+  iou_threshold: 0.45
+  image_size: 640
+  batch_size: 16
+  epochs: 50
+
+# --- Module 3: Classification Configuration ---
+classification:
+  backbone: "efficientnet_b4"
+  pretrained: true
+  num_classes: null             # Inferred dynamically from dataset
+  image_size: 224
+  batch_size: 32
+  learning_rate: 0.0003
+  epochs: 30
+  active_classifier: "fruit_classifier" # "fruit_classifier", "target_foods_v1", or "general_food"
+  fruit_classifier_checkpoint: "models/classification/fruit_classifier_corrected_split/best_model.pth"
+  fruit_classes:
+    - "Apple_Good"
+    - "Banana_Good"
+    - "Guava_Good"
+    - "Lime_Good"
+    - "Orange_Good"
+    - "Pomegranate_Good"
+  confidence_threshold: 0.35
+
+# --- Module 4: Segmentation Configuration ---
+segmentation:
+  model_type: "sam2"
+  checkpoint: "sam2.1_t.pt"
+  points_per_side: 32
+  pred_iou_thresh: 0.88
+  stability_score_thresh: 0.95
+
+# --- Module 5: Depth Estimation & Weight Estimation ---
+depth:
+  model_type: "depth_anything_v2"
+  encoder: "vits"               # "vits", "vitb", "vitl"
+  input_size: 518
+
+weight_estimation:
+  reference_object: "plate"     # "coin", "credit_card", "plate"
+  reference_dimension_cm: 25.0  # Plate diameter standard: 25 cm
+  density_database: "data/food_densities.json" # g/cm^3 per food category
+  default_density_g_cm3: 0.85
+
+# --- Module 6: Freshness Detection ---
+freshness:
+  backbone: "efficientnet_b4"
+  classes:
+    - "fresh"
+    - "medium"
+    - "rotten"
+  image_size: 380
+  batch_size: 16
+
+# --- Module 7: Nutritional Analysis ---
+nutrition:
+  usda_api_url: "https://api.nal.usda.gov/fdc/v1"
+  usda_api_key: "DEMO_KEY"      # Replace with USDA FoodData Central API key
+  cache_ttl_hours: 168          # 7 days local cache
+
+# --- Module 8: Explainability (Grad-CAM) ---
+explainability:
+  target_layer: "conv_head"     # Target layer for EfficientNet-B4
+  colormap: "JET"
+  alpha: 0.5
+
+# --- Backend & Frontend Service Settings ---
+backend:
+  host: "0.0.0.0"
+  port: 8000
+  reload: true
+
+frontend:
+  host: "0.0.0.0"
+  port: 8501

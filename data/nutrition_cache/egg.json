@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "egg",
+  "normalized_query": "egg",
+  "usda_food_name": "Egg, whole, cooked, hard-boiled",
+  "usda_fdc_id": 171287,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 155.0,
+    "protein_g": 12.58,
+    "carbohydrates_g": 1.12,
+    "fat_g": 10.61,
+    "fiber_g": 0.0,
+    "sodium_mg": 124.0,
+    "potassium_mg": 126.0,
+    "calcium_mg": 50.0,
+    "iron_mg": 1.19,
+    "sugars_g": 1.12
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

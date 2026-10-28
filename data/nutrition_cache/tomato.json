@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "tomato",
+  "normalized_query": "tomato",
+  "usda_food_name": "Tomatoes, red, ripe, raw, year round average",
+  "usda_fdc_id": 170457,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 18.0,
+    "protein_g": 0.88,
+    "carbohydrates_g": 3.89,
+    "fat_g": 0.2,
+    "fiber_g": 1.2,
+    "sodium_mg": 5.0,
+    "potassium_mg": 237.0,
+    "calcium_mg": 10.0,
+    "iron_mg": 0.27,
+    "sugars_g": 2.63
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

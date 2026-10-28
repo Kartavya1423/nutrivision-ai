@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "ice_cream",
+  "normalized_query": "ice cream",
+  "usda_food_name": "Ice creams, vanilla",
+  "usda_fdc_id": 167575,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 207.0,
+    "protein_g": 3.5,
+    "carbohydrates_g": 23.6,
+    "fat_g": 11.0,
+    "fiber_g": 0.7,
+    "sodium_mg": 80.0,
+    "potassium_mg": 199.0,
+    "calcium_mg": 128.0,
+    "iron_mg": 0.1,
+    "sugars_g": 21.2
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-15T12:00:00Z"
+}

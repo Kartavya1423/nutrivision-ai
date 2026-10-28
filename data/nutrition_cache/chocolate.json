@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "chocolate",
+  "normalized_query": "chocolate",
+  "usda_food_name": "Candies, milk chocolate",
+  "usda_fdc_id": 170273,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 535.0,
+    "protein_g": 7.65,
+    "carbohydrates_g": 59.4,
+    "fat_g": 29.7,
+    "fiber_g": 3.4,
+    "sodium_mg": 79.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

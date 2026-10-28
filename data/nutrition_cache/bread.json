@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "bread",
+  "normalized_query": "bread",
+  "usda_food_name": "Bread, white, commercially prepared",
+  "usda_fdc_id": 172686,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 265.0,
+    "protein_g": 8.85,
+    "carbohydrates_g": 49.2,
+    "fat_g": 3.2,
+    "fiber_g": 2.7,
+    "sodium_mg": 491.0,
+    "potassium_mg": 115.0,
+    "calcium_mg": 260.0,
+    "iron_mg": 3.6,
+    "sugars_g": 5.66
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

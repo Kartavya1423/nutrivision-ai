@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "noodle",
+  "normalized_query": "noodle",
+  "usda_food_name": "Noodles, egg, cooked, enriched",
+  "usda_fdc_id": 168918,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 138.0,
+    "protein_g": 4.54,
+    "carbohydrates_g": 25.16,
+    "fat_g": 2.07,
+    "fiber_g": 1.2,
+    "sodium_mg": 5.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

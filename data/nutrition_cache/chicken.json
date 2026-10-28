@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "chicken",
+  "normalized_query": "chicken",
+  "usda_food_name": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+  "usda_fdc_id": 171477,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 165.0,
+    "protein_g": 31.02,
+    "carbohydrates_g": 0.0,
+    "fat_g": 3.57,
+    "fiber_g": 0.0,
+    "sodium_mg": 74.0,
+    "potassium_mg": 256.0,
+    "calcium_mg": 15.0,
+    "iron_mg": 1.04,
+    "sugars_g": 0.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

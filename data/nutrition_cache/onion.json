@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "onion",
+  "normalized_query": "onion",
+  "usda_food_name": "Onions, raw",
+  "usda_fdc_id": 170000,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 40.0,
+    "protein_g": 1.1,
+    "carbohydrates_g": 9.34,
+    "fat_g": 0.1,
+    "fiber_g": 1.7,
+    "sodium_mg": 4.0,
+    "potassium_mg": 146.0,
+    "calcium_mg": 23.0,
+    "iron_mg": 0.21,
+    "sugars_g": 4.24
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "LIVE_USDA",
+  "retrieved_at": "2026-10-16T15:16:55.393692+00:00"
+}

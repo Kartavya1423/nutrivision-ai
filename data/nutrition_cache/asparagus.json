@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "asparagus",
+  "normalized_query": "asparagus",
+  "usda_food_name": "Asparagus, raw",
+  "usda_fdc_id": 169961,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 20.0,
+    "protein_g": 2.2,
+    "carbohydrates_g": 3.88,
+    "fat_g": 0.12,
+    "fiber_g": 2.1,
+    "sodium_mg": 2.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

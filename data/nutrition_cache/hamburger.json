@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "hamburger",
+  "normalized_query": "hamburger",
+  "usda_food_name": "Burger, single ground beef patty, with bun",
+  "usda_fdc_id": 173300,
+  "data_type": "Survey (FNDDS)",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 254.0,
+    "protein_g": 13.25,
+    "carbohydrates_g": 24.3,
+    "fat_g": 11.6,
+    "fiber_g": 1.4,
+    "sodium_mg": 414.0,
+    "potassium_mg": 210.0,
+    "calcium_mg": 60.0,
+    "iron_mg": 2.3,
+    "sugars_g": 4.2
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

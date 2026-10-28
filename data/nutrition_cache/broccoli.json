@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "broccoli",
+  "normalized_query": "broccoli",
+  "usda_food_name": "Broccoli, raw",
+  "usda_fdc_id": 170379,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 34.0,
+    "protein_g": 2.82,
+    "carbohydrates_g": 6.64,
+    "fat_g": 0.37,
+    "fiber_g": 2.6,
+    "sodium_mg": 33.0,
+    "potassium_mg": 316.0,
+    "calcium_mg": 47.0,
+    "iron_mg": 0.73,
+    "sugars_g": 1.7
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

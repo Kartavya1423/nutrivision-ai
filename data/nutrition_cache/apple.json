@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "apple",
+  "normalized_query": "apple",
+  "usda_food_name": "Apples, fuji, with skin, raw",
+  "usda_fdc_id": 1750340,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 52.0,
+    "protein_g": 0.26,
+    "carbohydrates_g": 13.81,
+    "fat_g": 0.17,
+    "fiber_g": 2.4,
+    "sodium_mg": 1.0,
+    "potassium_mg": 107.0,
+    "calcium_mg": 6.0,
+    "iron_mg": 0.12,
+    "sugars_g": 10.39
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "french_fries",
+  "normalized_query": "french fries",
+  "usda_food_name": "Fast foods, potato, french fried in vegetable oil",
+  "usda_fdc_id": 170699,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 312.0,
+    "protein_g": 3.43,
+    "carbohydrates_g": 41.44,
+    "fat_g": 14.73,
+    "fiber_g": 3.8,
+    "sodium_mg": 210.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

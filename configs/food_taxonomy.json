@@ -1,0 +1,2475 @@
+{
+  "taxonomy_version": "2.0.0",
+  "taxonomy_name": "NutriVision Unified Real-World Meal Taxonomy",
+  "last_updated": "2026-10-05T23:35:00Z",
+  "total_classes": 198,
+  "total_categories": 20,
+  "categories": {
+    "beverages": {
+      "count": 5,
+      "classes": [
+        "beverage",
+        "coffee",
+        "juice",
+        "tea",
+        "wine"
+      ]
+    },
+    "bread": {
+      "count": 11,
+      "classes": [
+        "bread",
+        "bread_steamed",
+        "chip_butty",
+        "croissant",
+        "hamburger",
+        "hot_dog",
+        "pizza_toast",
+        "raisin_bread",
+        "roll_bread",
+        "sandwiches",
+        "toast"
+      ]
+    },
+    "chicken": {
+      "count": 5,
+      "classes": [
+        "boiled_chicken_and_vegetables",
+        "chicken_duck",
+        "fried_chicken",
+        "roast_chicken",
+        "yakitori"
+      ]
+    },
+    "curries": {
+      "count": 3,
+      "classes": [
+        "beef_curry",
+        "curry",
+        "cutlet_curry"
+      ]
+    },
+    "dairy": {
+      "count": 3,
+      "classes": [
+        "cheese_butter",
+        "milk",
+        "milkshake"
+      ]
+    },
+    "desserts": {
+      "count": 11,
+      "classes": [
+        "cake",
+        "candy",
+        "chocolate",
+        "egg_tart",
+        "fish-shaped_pancake_with_bean_jam",
+        "ice_cream",
+        "japanese-style_pancake",
+        "pancake",
+        "pudding",
+        "tart",
+        "waffle"
+      ]
+    },
+    "eggs": {
+      "count": 6,
+      "classes": [
+        "egg",
+        "egg_roll",
+        "egg_sunny-side_up",
+        "omelet",
+        "rolled_omelet",
+        "steamed_egg_hotchpotch"
+      ]
+    },
+    "fish": {
+      "count": 16,
+      "classes": [
+        "boiled_fish",
+        "dried_fish",
+        "fish",
+        "fried_fish",
+        "fried_shrimp",
+        "grilled_pacific_saury",
+        "grilled_salmon",
+        "lightly_roasted_fish",
+        "nanbanzuke",
+        "salmon_meuniere",
+        "sashimi",
+        "seafood",
+        "shrimp",
+        "shrimp_with_chill_source",
+        "sushi",
+        "teriyaki_grilled_fish"
+      ]
+    },
+    "fruits": {
+      "count": 22,
+      "classes": [
+        "apple",
+        "apricot",
+        "avocado",
+        "banana",
+        "blueberry",
+        "cherry",
+        "date",
+        "fig",
+        "grape",
+        "kiwi",
+        "lemon",
+        "mango",
+        "melon",
+        "orange",
+        "peach",
+        "pear",
+        "pineapple",
+        "plum",
+        "pomegranate",
+        "raspberry",
+        "strawberry",
+        "watermelon"
+      ]
+    },
+    "grains": {
+      "count": 2,
+      "classes": [
+        "bibimbap",
+        "pizza"
+      ]
+    },
+    "legumes": {
+      "count": 9,
+      "classes": [
+        "cold_tofu",
+        "fermented_soybeans",
+        "ganmodoki",
+        "green_beans",
+        "japanese_tofu_and_vegetable_chowder",
+        "peanut",
+        "red_beans",
+        "spicy_chili-flavored_tofu",
+        "tofu"
+      ]
+    },
+    "meat": {
+      "count": 13,
+      "classes": [
+        "beef",
+        "beef_steak",
+        "cabbage_roll",
+        "ginger_pork_saute",
+        "hambarg_steak",
+        "pork",
+        "sausage",
+        "seasoned_beef_with_potatoes",
+        "simmered_pork",
+        "sirloin_cutlet",
+        "stir-fried_beef_and_peppers",
+        "sukiyaki",
+        "sweet_and_sour_pork"
+      ]
+    },
+    "noodles": {
+      "count": 10,
+      "classes": [
+        "beef_noodle",
+        "chilled_noodle",
+        "dipping_noodles",
+        "fried_noodle",
+        "noodle",
+        "ramen_noodle",
+        "soba_noodle",
+        "tempura_udon",
+        "tensin_noodle",
+        "udon_noodle"
+      ]
+    },
+    "other_food": {
+      "count": 1,
+      "classes": [
+        "olives"
+      ]
+    },
+    "pasta": {
+      "count": 4,
+      "classes": [
+        "gratin",
+        "pasta_noodle",
+        "spaghetti",
+        "spaghetti_meat_sauce"
+      ]
+    },
+    "rice": {
+      "count": 14,
+      "classes": [
+        "beef_bowl",
+        "chicken-'n'-egg_on_rice",
+        "chicken_rice",
+        "congee",
+        "eels_on_rice",
+        "fried_rice",
+        "mixed_rice",
+        "omelet_with_fried_rice",
+        "pilaf",
+        "pork_cutlet_on_rice",
+        "rice",
+        "rice_ball",
+        "sashimi_bowl",
+        "sushi_bowl"
+      ]
+    },
+    "salads": {
+      "count": 4,
+      "classes": [
+        "green_salad",
+        "macaroni_salad",
+        "potato_salad",
+        "salad"
+      ]
+    },
+    "snacks": {
+      "count": 18,
+      "classes": [
+        "almond",
+        "biscuit",
+        "cashew",
+        "croquette",
+        "dumpling",
+        "french_fries",
+        "jiaozi",
+        "other_food",
+        "others",
+        "pecan",
+        "popcorn",
+        "seaweed",
+        "spring_rolls",
+        "steamed_meat_dumpling",
+        "takoyaki",
+        "tempura",
+        "tempura_bowl",
+        "walnut"
+      ]
+    },
+    "soups": {
+      "count": 7,
+      "classes": [
+        "chinese_soup",
+        "miso_soup",
+        "oden",
+        "pork_miso_soup",
+        "potage",
+        "soup",
+        "stew"
+      ]
+    },
+    "vegetables": {
+      "count": 34,
+      "classes": [
+        "asparagus",
+        "bean_sprouts",
+        "broccoli",
+        "cabbage",
+        "carrot",
+        "cauliflower",
+        "celery",
+        "chili",
+        "corn",
+        "cucumber",
+        "eggplant",
+        "garlic",
+        "ginger",
+        "goya_chanpuru",
+        "grilled_eggplant",
+        "kale",
+        "kinpira-style_sauteed_burdock",
+        "lettuce",
+        "mushroom",
+        "mushroom_enoki",
+        "onion",
+        "peas",
+        "pepper",
+        "potato",
+        "pumpkin",
+        "radish",
+        "sauteed_spinach",
+        "sauteed_vegetables",
+        "scallion",
+        "spinach",
+        "sweet_potato",
+        "tomato",
+        "vegetable_tempura",
+        "zucchini"
+      ]
+    }
+  },
+  "classes": [
+    {
+      "class_id": 0,
+      "class_name": "almond",
+      "category": "snacks",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 1,
+      "class_name": "apple",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 2,
+      "class_name": "apricot",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 17,
+      "train_samples": 8,
+      "val_samples": 6,
+      "test_samples": 3
+    },
+    {
+      "class_id": 3,
+      "class_name": "asparagus",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 4,
+      "class_name": "avocado",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 6,
+      "test_samples": 10
+    },
+    {
+      "class_id": 5,
+      "class_name": "banana",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 6,
+      "class_name": "bean_sprouts",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 15,
+      "train_samples": 10,
+      "val_samples": 2,
+      "test_samples": 3
+    },
+    {
+      "class_id": 7,
+      "class_name": "beef",
+      "category": "meat",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 40,
+      "train_samples": 25,
+      "val_samples": 6,
+      "test_samples": 9
+    },
+    {
+      "class_id": 8,
+      "class_name": "beef_bowl",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 9,
+      "class_name": "beef_curry",
+      "category": "curries",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 10,
+      "class_name": "beef_noodle",
+      "category": "noodles",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 11,
+      "class_name": "beef_steak",
+      "category": "meat",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 39,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 6
+    },
+    {
+      "class_id": 12,
+      "class_name": "beverage",
+      "category": "beverages",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 13,
+      "class_name": "bibimbap",
+      "category": "grains",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 14,
+      "class_name": "biscuit",
+      "category": "snacks",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 15,
+      "class_name": "blueberry",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 16,
+      "class_name": "boiled_chicken_and_vegetables",
+      "category": "chicken",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 39,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 6
+    },
+    {
+      "class_id": 17,
+      "class_name": "boiled_fish",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 18,
+      "class_name": "bread",
+      "category": "bread",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 19,
+      "class_name": "bread_steamed",
+      "category": "bread",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 20,
+      "class_name": "broccoli",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 21,
+      "class_name": "cabbage",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 27,
+      "train_samples": 11,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 22,
+      "class_name": "cabbage_roll",
+      "category": "meat",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 23,
+      "class_name": "cake",
+      "category": "desserts",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 24,
+      "class_name": "candy",
+      "category": "desserts",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 39,
+      "train_samples": 25,
+      "val_samples": 4,
+      "test_samples": 10
+    },
+    {
+      "class_id": 25,
+      "class_name": "carrot",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 26,
+      "class_name": "cashew",
+      "category": "snacks",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 27,
+      "class_name": "cauliflower",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 28,
+      "class_name": "celery",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 29,
+      "class_name": "cheese_butter",
+      "category": "dairy",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 30,
+      "class_name": "cherry",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 31,
+      "class_name": "chicken-'n'-egg_on_rice",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 32,
+      "class_name": "chicken_duck",
+      "category": "chicken",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 33,
+      "class_name": "chicken_rice",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 40,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 7
+    },
+    {
+      "class_id": 34,
+      "class_name": "chili",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 35,
+      "class_name": "chilled_noodle",
+      "category": "noodles",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 36,
+      "class_name": "chinese_soup",
+      "category": "soups",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 37,
+      "class_name": "chip_butty",
+      "category": "bread",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 38,
+      "class_name": "chocolate",
+      "category": "desserts",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 39,
+      "class_name": "coffee",
+      "category": "beverages",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 40,
+      "class_name": "cold_tofu",
+      "category": "legumes",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 41,
+      "class_name": "congee",
+      "category": "rice",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 42,
+      "class_name": "corn",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 43,
+      "class_name": "croissant",
+      "category": "bread",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 44,
+      "class_name": "croquette",
+      "category": "snacks",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 45,
+      "class_name": "cucumber",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 46,
+      "class_name": "curry",
+      "category": "curries",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 47,
+      "class_name": "cutlet_curry",
+      "category": "curries",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 48,
+      "class_name": "date",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 49,
+      "class_name": "dipping_noodles",
+      "category": "noodles",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 50,
+      "class_name": "dried_fish",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 51,
+      "class_name": "dumpling",
+      "category": "snacks",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 52,
+      "class_name": "eels_on_rice",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 53,
+      "class_name": "egg",
+      "category": "eggs",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 26,
+      "train_samples": 12,
+      "val_samples": 4,
+      "test_samples": 10
+    },
+    {
+      "class_id": 54,
+      "class_name": "egg_roll",
+      "category": "eggs",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 40,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 7
+    },
+    {
+      "class_id": 55,
+      "class_name": "egg_sunny-side_up",
+      "category": "eggs",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 56,
+      "class_name": "egg_tart",
+      "category": "desserts",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 11,
+      "train_samples": 8,
+      "val_samples": 0,
+      "test_samples": 3
+    },
+    {
+      "class_id": 57,
+      "class_name": "eggplant",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 58,
+      "class_name": "fermented_soybeans",
+      "category": "legumes",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 59,
+      "class_name": "fig",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 60,
+      "class_name": "fish",
+      "category": "fish",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 61,
+      "class_name": "fish-shaped_pancake_with_bean_jam",
+      "category": "desserts",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 62,
+      "class_name": "french_fries",
+      "category": "snacks",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 63,
+      "class_name": "fried_chicken",
+      "category": "chicken",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 64,
+      "class_name": "fried_fish",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 65,
+      "class_name": "fried_noodle",
+      "category": "noodles",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 66,
+      "class_name": "fried_rice",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 67,
+      "class_name": "fried_shrimp",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 68,
+      "class_name": "ganmodoki",
+      "category": "legumes",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 69,
+      "class_name": "garlic",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 8,
+      "train_samples": 5,
+      "val_samples": 2,
+      "test_samples": 1
+    },
+    {
+      "class_id": 70,
+      "class_name": "ginger",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 71,
+      "class_name": "ginger_pork_saute",
+      "category": "meat",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 40,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 7
+    },
+    {
+      "class_id": 72,
+      "class_name": "goya_chanpuru",
+      "category": "vegetables",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 73,
+      "class_name": "grape",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 40,
+      "train_samples": 25,
+      "val_samples": 6,
+      "test_samples": 9
+    },
+    {
+      "class_id": 74,
+      "class_name": "gratin",
+      "category": "pasta",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 75,
+      "class_name": "green_beans",
+      "category": "legumes",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 76,
+      "class_name": "green_salad",
+      "category": "salads",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 77,
+      "class_name": "grilled_eggplant",
+      "category": "vegetables",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 78,
+      "class_name": "grilled_pacific_saury",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 79,
+      "class_name": "grilled_salmon",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 80,
+      "class_name": "hambarg_steak",
+      "category": "meat",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 81,
+      "class_name": "hamburger",
+      "category": "bread",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 82,
+      "class_name": "hot_dog",
+      "category": "bread",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 40,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 7
+    },
+    {
+      "class_id": 83,
+      "class_name": "ice_cream",
+      "category": "desserts",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 84,
+      "class_name": "japanese-style_pancake",
+      "category": "desserts",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 85,
+      "class_name": "japanese_tofu_and_vegetable_chowder",
+      "category": "legumes",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 40,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 7
+    },
+    {
+      "class_id": 86,
+      "class_name": "jiaozi",
+      "category": "snacks",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 87,
+      "class_name": "juice",
+      "category": "beverages",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 88,
+      "class_name": "kale",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 89,
+      "class_name": "kinpira-style_sauteed_burdock",
+      "category": "vegetables",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 90,
+      "class_name": "kiwi",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 91,
+      "class_name": "lemon",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 92,
+      "class_name": "lettuce",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 93,
+      "class_name": "lightly_roasted_fish",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 94,
+      "class_name": "macaroni_salad",
+      "category": "salads",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 95,
+      "class_name": "mango",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 96,
+      "class_name": "melon",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 97,
+      "class_name": "milk",
+      "category": "dairy",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 98,
+      "class_name": "milkshake",
+      "category": "dairy",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 99,
+      "class_name": "miso_soup",
+      "category": "soups",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 100,
+      "class_name": "mixed_rice",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 101,
+      "class_name": "mushroom",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 32,
+      "train_samples": 14,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 102,
+      "class_name": "mushroom_enoki",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 15,
+      "train_samples": 9,
+      "val_samples": 2,
+      "test_samples": 4
+    },
+    {
+      "class_id": 103,
+      "class_name": "nanbanzuke",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 39,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 6
+    },
+    {
+      "class_id": 104,
+      "class_name": "noodle",
+      "category": "noodles",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 105,
+      "class_name": "oden",
+      "category": "soups",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 106,
+      "class_name": "olives",
+      "category": "other_food",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 107,
+      "class_name": "omelet",
+      "category": "eggs",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 108,
+      "class_name": "omelet_with_fried_rice",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 109,
+      "class_name": "onion",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 110,
+      "class_name": "orange",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 7,
+      "test_samples": 10
+    },
+    {
+      "class_id": 111,
+      "class_name": "other_food",
+      "category": "snacks",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 22,
+      "train_samples": 11,
+      "val_samples": 1,
+      "test_samples": 10
+    },
+    {
+      "class_id": 112,
+      "class_name": "others",
+      "category": "snacks",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 113,
+      "class_name": "pancake",
+      "category": "desserts",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 114,
+      "class_name": "pasta_noodle",
+      "category": "pasta",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 26,
+      "train_samples": 13,
+      "val_samples": 3,
+      "test_samples": 10
+    },
+    {
+      "class_id": 115,
+      "class_name": "peach",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 116,
+      "class_name": "peanut",
+      "category": "legumes",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 117,
+      "class_name": "pear",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 39,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 6
+    },
+    {
+      "class_id": 118,
+      "class_name": "peas",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 14,
+      "train_samples": 8,
+      "val_samples": 1,
+      "test_samples": 5
+    },
+    {
+      "class_id": 119,
+      "class_name": "pecan",
+      "category": "snacks",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 38,
+      "train_samples": 25,
+      "val_samples": 3,
+      "test_samples": 10
+    },
+    {
+      "class_id": 120,
+      "class_name": "pepper",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 121,
+      "class_name": "pilaf",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 122,
+      "class_name": "pineapple",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 123,
+      "class_name": "pizza",
+      "category": "grains",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 124,
+      "class_name": "pizza_toast",
+      "category": "bread",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 125,
+      "class_name": "plum",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 126,
+      "class_name": "pomegranate",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 127,
+      "class_name": "popcorn",
+      "category": "snacks",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 36,
+      "train_samples": 25,
+      "val_samples": 1,
+      "test_samples": 10
+    },
+    {
+      "class_id": 128,
+      "class_name": "pork",
+      "category": "meat",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 7,
+      "test_samples": 10
+    },
+    {
+      "class_id": 129,
+      "class_name": "pork_cutlet_on_rice",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 130,
+      "class_name": "pork_miso_soup",
+      "category": "soups",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 131,
+      "class_name": "potage",
+      "category": "soups",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 7,
+      "test_samples": 10
+    },
+    {
+      "class_id": 132,
+      "class_name": "potato",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 133,
+      "class_name": "potato_salad",
+      "category": "salads",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 134,
+      "class_name": "pudding",
+      "category": "desserts",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 6,
+      "train_samples": 4,
+      "val_samples": 1,
+      "test_samples": 1
+    },
+    {
+      "class_id": 135,
+      "class_name": "pumpkin",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 20,
+      "train_samples": 5,
+      "val_samples": 5,
+      "test_samples": 10
+    },
+    {
+      "class_id": 136,
+      "class_name": "radish",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 137,
+      "class_name": "raisin_bread",
+      "category": "bread",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 138,
+      "class_name": "ramen_noodle",
+      "category": "noodles",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 139,
+      "class_name": "raspberry",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 140,
+      "class_name": "red_beans",
+      "category": "legumes",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 141,
+      "class_name": "rice",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 142,
+      "class_name": "rice_ball",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 39,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 6
+    },
+    {
+      "class_id": 143,
+      "class_name": "roast_chicken",
+      "category": "chicken",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 144,
+      "class_name": "roll_bread",
+      "category": "bread",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 145,
+      "class_name": "rolled_omelet",
+      "category": "eggs",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 146,
+      "class_name": "salad",
+      "category": "salads",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 147,
+      "class_name": "salmon_meuniere",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 40,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 7
+    },
+    {
+      "class_id": 148,
+      "class_name": "sandwiches",
+      "category": "bread",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 149,
+      "class_name": "sashimi",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 150,
+      "class_name": "sashimi_bowl",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 151,
+      "class_name": "sausage",
+      "category": "meat",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 152,
+      "class_name": "sauteed_spinach",
+      "category": "vegetables",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 153,
+      "class_name": "sauteed_vegetables",
+      "category": "vegetables",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 154,
+      "class_name": "scallion",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 155,
+      "class_name": "seafood",
+      "category": "fish",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 7,
+      "train_samples": 4,
+      "val_samples": 0,
+      "test_samples": 3
+    },
+    {
+      "class_id": 156,
+      "class_name": "seasoned_beef_with_potatoes",
+      "category": "meat",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 157,
+      "class_name": "seaweed",
+      "category": "snacks",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 158,
+      "class_name": "shrimp",
+      "category": "fish",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 159,
+      "class_name": "shrimp_with_chill_source",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 160,
+      "class_name": "simmered_pork",
+      "category": "meat",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 161,
+      "class_name": "sirloin_cutlet",
+      "category": "meat",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 162,
+      "class_name": "soba_noodle",
+      "category": "noodles",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 163,
+      "class_name": "soup",
+      "category": "soups",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 14,
+      "train_samples": 7,
+      "val_samples": 0,
+      "test_samples": 7
+    },
+    {
+      "class_id": 164,
+      "class_name": "spaghetti",
+      "category": "pasta",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 165,
+      "class_name": "spaghetti_meat_sauce",
+      "category": "pasta",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 166,
+      "class_name": "spicy_chili-flavored_tofu",
+      "category": "legumes",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 167,
+      "class_name": "spinach",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 37,
+      "train_samples": 25,
+      "val_samples": 2,
+      "test_samples": 10
+    },
+    {
+      "class_id": 168,
+      "class_name": "spring_rolls",
+      "category": "snacks",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 169,
+      "class_name": "steamed_egg_hotchpotch",
+      "category": "eggs",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 170,
+      "class_name": "steamed_meat_dumpling",
+      "category": "snacks",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 171,
+      "class_name": "stew",
+      "category": "soups",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 172,
+      "class_name": "stir-fried_beef_and_peppers",
+      "category": "meat",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 40,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 7
+    },
+    {
+      "class_id": 173,
+      "class_name": "strawberry",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 174,
+      "class_name": "sukiyaki",
+      "category": "meat",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 175,
+      "class_name": "sushi",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 176,
+      "class_name": "sushi_bowl",
+      "category": "rice",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 177,
+      "class_name": "sweet_and_sour_pork",
+      "category": "meat",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 8
+    },
+    {
+      "class_id": 178,
+      "class_name": "sweet_potato",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 179,
+      "class_name": "takoyaki",
+      "category": "snacks",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 180,
+      "class_name": "tart",
+      "category": "desserts",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 181,
+      "class_name": "tea",
+      "category": "beverages",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 33,
+      "train_samples": 25,
+      "val_samples": 2,
+      "test_samples": 6
+    },
+    {
+      "class_id": 182,
+      "class_name": "tempura",
+      "category": "snacks",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 183,
+      "class_name": "tempura_bowl",
+      "category": "snacks",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 184,
+      "class_name": "tempura_udon",
+      "category": "noodles",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 185,
+      "class_name": "tensin_noodle",
+      "category": "noodles",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 42,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 9
+    },
+    {
+      "class_id": 186,
+      "class_name": "teriyaki_grilled_fish",
+      "category": "fish",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 41,
+      "train_samples": 25,
+      "val_samples": 6,
+      "test_samples": 10
+    },
+    {
+      "class_id": 187,
+      "class_name": "toast",
+      "category": "bread",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 188,
+      "class_name": "tofu",
+      "category": "legumes",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 189,
+      "class_name": "tomato",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 190,
+      "class_name": "udon_noodle",
+      "category": "noodles",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 191,
+      "class_name": "vegetable_tempura",
+      "category": "vegetables",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 192,
+      "class_name": "waffle",
+      "category": "desserts",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 35,
+      "train_samples": 18,
+      "val_samples": 7,
+      "test_samples": 10
+    },
+    {
+      "class_id": 193,
+      "class_name": "walnut",
+      "category": "snacks",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 194,
+      "class_name": "watermelon",
+      "category": "fruits",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 195,
+      "class_name": "wine",
+      "category": "beverages",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 196,
+      "class_name": "yakitori",
+      "category": "chicken",
+      "dataset_source": "UECFoodPixComplete",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    },
+    {
+      "class_id": 197,
+      "class_name": "zucchini",
+      "category": "vegetables",
+      "dataset_source": "FoodSeg103",
+      "total_samples": 43,
+      "train_samples": 25,
+      "val_samples": 8,
+      "test_samples": 10
+    }
+  ],
+  "synonyms_and_aliases": {
+    "french_fries": [
+      "fries",
+      "chips",
+      "french fries",
+      "potato fries"
+    ],
+    "hamburger": [
+      "burger",
+      "cheeseburger",
+      "beef burger"
+    ],
+    "hot_dog": [
+      "hotdog",
+      "frankfurter",
+      "sausage roll"
+    ],
+    "ramen_noodle": [
+      "ramen",
+      "ramen bowl",
+      "japanese noodle soup"
+    ],
+    "soba_noodle": [
+      "soba",
+      "buckwheat noodle"
+    ],
+    "udon_noodle": [
+      "udon",
+      "wheat noodle"
+    ],
+    "fried_rice": [
+      "stir-fried rice",
+      "egg fried rice",
+      "chahan"
+    ],
+    "rice": [
+      "white rice",
+      "steamed rice",
+      "boiled rice"
+    ],
+    "curry": [
+      "japanese curry",
+      "curry sauce",
+      "curry rice"
+    ],
+    "beef_curry": [
+      "beef curry rice"
+    ],
+    "cutlet_curry": [
+      "katsu curry",
+      "pork katsu curry"
+    ],
+    "pizza": [
+      "pizza slice",
+      "cheese pizza",
+      "pepperoni pizza"
+    ],
+    "spaghetti": [
+      "pasta",
+      "spaghetti noodles"
+    ],
+    "spaghetti_meat_sauce": [
+      "bolognese",
+      "spaghetti bolognese",
+      "pasta with meat sauce"
+    ],
+    "sushi": [
+      "nigiri",
+      "maki",
+      "sushi roll",
+      "sushi platter"
+    ],
+    "sashimi": [
+      "raw fish",
+      "sliced fish"
+    ],
+    "dumpling": [
+      "potsticker",
+      "gyoza"
+    ],
+    "jiaozi": [
+      "chinese dumpling",
+      "boiled dumpling"
+    ],
+    "steamed_meat_dumpling": [
+      "shumai",
+      "siu mai",
+      "dim sum dumpling"
+    ],
+    "croissant": [
+      "crescent roll",
+      "pastry"
+    ],
+    "pancake": [
+      "hotcake",
+      "flapjacks"
+    ],
+    "toast": [
+      "toasted bread",
+      "sliced toast"
+    ],
+    "miso_soup": [
+      "japanese miso soup",
+      "fermented soybean soup"
+    ],
+    "green_salad": [
+      "garden salad",
+      "tossed salad",
+      "leaf salad"
+    ],
+    "chicken_duck": [
+      "poultry",
+      "chicken pieces",
+      "duck meat"
+    ],
+    "fried_chicken": [
+      "crispy chicken",
+      "karaage",
+      "chicken tenders"
+    ],
+    "boiled_egg": [
+      "hard boiled egg",
+      "soft boiled egg"
+    ],
+    "egg": [
+      "chicken egg",
+      "whole egg"
+    ],
+    "apple": [
+      "red apple",
+      "green apple"
+    ],
+    "banana": [
+      "ripe banana",
+      "yellow banana"
+    ],
+    "orange": [
+      "sweet orange",
+      "citrus"
+    ],
+    "cheese_butter": [
+      "cheese",
+      "cheddar",
+      "butter slice",
+      "dairy fat"
+    ]
+  },
+  "unsupported_planned_classes": [
+    {
+      "food_name": "Indian Biryani",
+      "target_category": "rice",
+      "reason": "Not present in FoodSeg103 or UECFoodPix; requires regional South Asian dataset expansion."
+    },
+    {
+      "food_name": "Indian Dal / Lentil Curry",
+      "target_category": "curries",
+      "reason": "Requires specialized liquid/puree meal segmentation."
+    },
+    {
+      "food_name": "Mexican Tacos / Burritos",
+      "target_category": "bread",
+      "reason": "Folded tortilla composite meals lack dedicated ground-truth in current sets."
+    },
+    {
+      "food_name": "Middle Eastern Shawarma / Falafel",
+      "target_category": "meat",
+      "reason": "Targeted for Phase 3 web-scrape augmentation."
+    },
+    {
+      "food_name": "Greek Gyros / Moussaka",
+      "target_category": "meat",
+      "reason": "Layered casserole structures require multi-component breakdown."
+    }
+  ],
+  "extensibility_schema": {
+    "version": "2.0",
+    "required_fields_for_new_class": [
+      "class_id",
+      "class_name",
+      "canonical_category",
+      "usda_fdc_id",
+      "standard_density_g_per_cm3",
+      "is_composite_dish",
+      "allergens"
+    ]
+  }
+}

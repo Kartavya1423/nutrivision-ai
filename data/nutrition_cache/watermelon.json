@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "watermelon",
+  "normalized_query": "watermelon",
+  "usda_food_name": "Watermelon, raw",
+  "usda_fdc_id": 167765,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 30.0,
+    "protein_g": 0.61,
+    "carbohydrates_g": 7.55,
+    "fat_g": 0.15,
+    "fiber_g": 0.4,
+    "sodium_mg": 1.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

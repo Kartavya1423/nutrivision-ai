@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "description": "Empirical food bulk density reference database in g/cm3",
+    "version": "1.0.0",
+    "default_density": 0.85
+  },
+  "categories": {
+    "grains": {
+      "cooked_white_rice": 0.85,
+      "cooked_brown_rice": 0.88,
+      "cooked_pasta": 0.73,
+      "bread_white": 0.28,
+      "bread_whole_wheat": 0.32,
+      "quinoa_cooked": 0.80,
+      "oatmeal_cooked": 0.95
+    },
+    "proteins": {
+      "chicken_breast_cooked": 1.05,
+      "chicken_curry": 0.98,
+      "beef_steak_cooked": 1.08,
+      "salmon_cooked": 1.02,
+      "tofu_firm": 0.98,
+      "boiled_egg": 1.03,
+      "fried_egg": 0.92,
+      "lentils_cooked": 0.90,
+      "beans_cooked": 0.88
+    },
+    "vegetables": {
+      "broccoli_steamed": 0.45,
+      "carrots_raw": 0.64,
+      "carrots_cooked": 0.72,
+      "spinach_raw": 0.15,
+      "spinach_cooked": 0.65,
+      "potato_mashed": 0.96,
+      "potato_boiled": 0.85,
+      "french_fries": 0.55,
+      "tomato": 0.68,
+      "cucumber": 0.62,
+      "lettuce": 0.12
+    },
+    "fruits": {
+      "apple": 0.78,
+      "banana": 0.95,
+      "orange": 0.82,
+      "guava": 0.88,
+      "lime": 0.89,
+      "pomegranate": 0.92,
+      "strawberries": 0.65,
+      "grapes": 0.75,
+      "watermelon": 0.92
+    },
+    "liquids_and_sauces": {
+      "soup_clear": 1.00,
+      "soup_creamy": 1.04,
+      "yogurt": 1.06,
+      "salad_dressing": 0.95,
+      "curry_sauce": 1.02
+    }
+  },
+  "flat_lookup": {
+    "rice": 0.85,
+    "white rice": 0.85,
+    "brown rice": 0.88,
+    "chicken": 1.05,
+    "chicken breast": 1.05,
+    "pasta": 0.73,
+    "spaghetti": 0.73,
+    "beef": 1.08,
+    "steak": 1.08,
+    "fish": 1.02,
+    "salmon": 1.02,
+    "egg": 1.03,
+    "broccoli": 0.45,
+    "carrots": 0.64,
+    "spinach": 0.40,
+    "potato": 0.85,
+    "fries": 0.55,
+    "french fries": 0.55,
+    "apple": 0.78,
+    "banana": 0.95,
+    "orange": 0.82,
+    "guava": 0.88,
+    "lime": 0.89,
+    "pomegranate": 0.92,
+    "salad": 0.25,
+    "vegetables": 0.60,
+    "bread": 0.30,
+    "curry": 0.98,
+    "soup": 1.00,
+    "tofu": 0.98,
+    "noodles": 0.75
+  }
+}

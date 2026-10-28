@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "lemon",
+  "normalized_query": "lemon",
+  "usda_food_name": "Lemons, raw, without peel",
+  "usda_fdc_id": 167746,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 29.0,
+    "protein_g": 1.1,
+    "carbohydrates_g": 9.32,
+    "fat_g": 0.3,
+    "fiber_g": 2.8,
+    "sodium_mg": 2.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

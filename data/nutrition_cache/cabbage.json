@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "cabbage",
+  "normalized_query": "cabbage",
+  "usda_food_name": "Cabbage, common, raw",
+  "usda_fdc_id": 169975,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 25.0,
+    "protein_g": 1.28,
+    "carbohydrates_g": 5.8,
+    "fat_g": 0.1,
+    "fiber_g": 2.5,
+    "sodium_mg": 18.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

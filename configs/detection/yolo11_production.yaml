@@ -1,0 +1,84 @@
+# NutriVision AI — Production YOLO11 Food Detection Configuration
+# Phase: Step 3 — Production-Quality YOLO11 Food Detection
+# Target: Real-World Food Scanning (198 Unified Classes)
+
+# =====================================================================
+# DATASET PATHS & SPECIFICATION
+# =====================================================================
+task: detect
+mode: train
+data: data/processed/yolo_detection/data.yaml
+
+# =====================================================================
+# MODEL ARCHITECTURE & PRETRAINED WEIGHTS
+# =====================================================================
+# Base architecture: YOLO11 Small (yolo11s.pt) provides optimal tradeoff
+# between capacity for 198 food classes and real-time mobile/edge latency.
+model: yolo11s.pt
+
+# =====================================================================
+# TRAINING PARAMETERS
+# =====================================================================
+epochs: 60                      # Sufficient convergence for 198 classes
+patience: 10                    # Early stopping if no val mAP50 improvement
+batch: 16                       # Recommended batch size on 16GB VRAM (GPU); 4-8 on CPU
+imgsz: 640                      # Standard multi-scale food resolution
+save: True                      # Save training checkpoints
+save_period: 5                  # Checkpoint every 5 epochs
+cache: False                    # Do not exhaust system RAM on large dataset
+device: 0                       # GPU device (automatically falls back to 'cpu' if no CUDA)
+workers: 4                      # Number of DataLoader worker threads
+seed: 42                        # Reproducibility seed
+deterministic: True             # Deterministic cuDNN algorithms where possible
+single_cls: False               # Multi-class detection (198 classes)
+rect: False                     # Standard square batching for training
+cos_lr: True                    # Cosine annealing learning rate scheduler
+close_mosaic: 10                # Disable mosaic in last 10 epochs for contour precision
+amp: True                       # Automatic Mixed Precision (FP16) on CUDA
+
+# =====================================================================
+# OPTIMIZER & LEARNING RATE SCHEDULE
+# =====================================================================
+optimizer: AdamW                # AdamW stabilizes fine-grained food feature training
+lr0: 0.001                      # Initial learning rate
+lrf: 0.01                       # Final learning rate factor (min lr = 1e-5)
+momentum: 0.937                 # Momentum factor
+weight_decay: 0.0005            # Regularization penalty
+warmup_epochs: 3.0              # Warmup duration for backbone stabilization
+warmup_momentum: 0.8            # Initial warmup momentum
+warmup_bias_lr: 0.1             # Warmup bias learning rate
+
+# =====================================================================
+# LOSS FUNCTION WEIGHTS (CLASS IMBALANCE MITIGATION)
+# =====================================================================
+box: 7.5                        # CIoU bounding box loss weight
+cls: 1.2                        # Elevated class classification loss weight (compensates 198 classes)
+dfl: 1.5                        # Distribution Focal Loss weight
+label_smoothing: 0.05           # Label smoothing prevents overconfidence on ambiguous food classes
+
+# =====================================================================
+# REAL-WORLD FOOD CAMERA AUGMENTATION PROFILE
+# =====================================================================
+# Tuned specifically for mobile camera angles, indoor restaurant lighting,
+# kitchen glare, and composite food plates. No identity-destroying distortions.
+hsv_h: 0.015                    # Subtle hue shift (preserves natural food coloration)
+hsv_s: 0.7                      # Substantial saturation variation (restaurant/kitchen lighting)
+hsv_v: 0.4                      # Exposure and brightness variation (shadows, low-light dining)
+degrees: 10.0                   # Moderate rotation (simulates hand tilt; foods remain upright)
+translate: 0.1                  # Portion translation across plate edges
+scale: 0.5                      # Distance variation (zoom levels: 0.5x to 1.5x)
+shear: 2.0                      # Perspective tilt (dining angle variations)
+perspective: 0.0005             # Subtle perspective transform
+flipud: 0.0                     # Disabled (meals are not typically viewed upside-down)
+fliplr: 0.5                     # Left-right symmetric reflection
+mosaic: 1.0                     # 4-image mosaic: critical for multi-food plate and small-scale items
+mixup: 0.15                     # Image blending: reinforces composite food texture discrimination
+copy_paste: 0.1                 # Paste food crops into scenes to enrich rare tail classes
+
+# =====================================================================
+# LOGGING & OUTPUT DESTINATIONS
+# =====================================================================
+project: models/detection/yolo11/production
+name: train_run
+exist_ok: True
+verbose: True

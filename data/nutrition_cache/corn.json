@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "corn",
+  "normalized_query": "corn",
+  "usda_food_name": "Corn, sweet, yellow, raw",
+  "usda_fdc_id": 169998,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 86.0,
+    "protein_g": 3.27,
+    "carbohydrates_g": 18.7,
+    "fat_g": 1.35,
+    "fiber_g": 2.0,
+    "sodium_mg": 15.0,
+    "potassium_mg": 270.0,
+    "calcium_mg": 2.0,
+    "iron_mg": 0.52,
+    "sugars_g": 6.26
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

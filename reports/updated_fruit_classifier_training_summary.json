@@ -1,0 +1,21 @@
+{
+  "project": "NutriVision AI",
+  "dataset": "updated dataset",
+  "total_images": 11664,
+  "classes": [
+    "Apple_Good",
+    "Banana_Good",
+    "Guava_Good",
+    "Lime_Good",
+    "Orange_Good",
+    "Pomegranate_Good"
+  ],
+  "train_images": 8163,
+  "validation_images": 1747,
+  "test_images": 1754,
+  "epochs_completed": 10,
+  "test_accuracy_reported": 0.9989,
+  "test_macro_f1_reported": 0.9981,
+  "checkpoint": "models/classification/fruit_classifier_corrected_split/best_model.pth",
+  "important_limitation": "All dataset categories end in _Good. The classifier is not a trained rotten-fruit detector."
+}

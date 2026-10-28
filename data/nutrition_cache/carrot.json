@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "carrot",
+  "normalized_query": "carrot",
+  "usda_food_name": "Carrots, raw",
+  "usda_fdc_id": 170393,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 41.0,
+    "protein_g": 0.93,
+    "carbohydrates_g": 9.58,
+    "fat_g": 0.24,
+    "fiber_g": 2.8,
+    "sodium_mg": 69.0,
+    "potassium_mg": 320.0,
+    "calcium_mg": 33.0,
+    "iron_mg": 0.3,
+    "sugars_g": 4.74
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "grape",
+  "normalized_query": "grape",
+  "usda_food_name": "Grapes, red or green, raw",
+  "usda_fdc_id": 174682,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 69.0,
+    "protein_g": 0.72,
+    "carbohydrates_g": 18.1,
+    "fat_g": 0.16,
+    "fiber_g": 0.9,
+    "sodium_mg": 2.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

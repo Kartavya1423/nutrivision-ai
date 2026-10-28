@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "samosa",
+  "normalized_query": "samosa",
+  "usda_food_name": "Samosa, vegetable stuffed pastry",
+  "usda_fdc_id": 2345678,
+  "data_type": "Survey (FNDDS)",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 262.0,
+    "protein_g": 4.5,
+    "carbohydrates_g": 32.2,
+    "fat_g": 13.1,
+    "fiber_g": 2.8,
+    "sodium_mg": 425.0,
+    "potassium_mg": 185.0,
+    "calcium_mg": 24.0,
+    "iron_mg": 1.7,
+    "sugars_g": 2.1
+  },
+  "source": "USDA FoodData Central / FNDDS",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-15T12:00:00Z"
+}

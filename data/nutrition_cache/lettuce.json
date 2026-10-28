@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "lettuce",
+  "normalized_query": "lettuce",
+  "usda_food_name": "Lettuce, iceberg, raw",
+  "usda_fdc_id": 169248,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 14.0,
+    "protein_g": 0.9,
+    "carbohydrates_g": 2.97,
+    "fat_g": 0.14,
+    "fiber_g": 1.2,
+    "sodium_mg": 10.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

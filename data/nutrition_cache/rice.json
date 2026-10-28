@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "rice",
+  "normalized_query": "rice",
+  "usda_food_name": "Rice, white, long-grain, regular, cooked",
+  "usda_fdc_id": 169704,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 130.0,
+    "protein_g": 2.69,
+    "carbohydrates_g": 28.17,
+    "fat_g": 0.28,
+    "fiber_g": 0.4,
+    "sodium_mg": 1.0,
+    "potassium_mg": 35.0,
+    "calcium_mg": 10.0,
+    "iron_mg": 1.2,
+    "sugars_g": 0.05
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

@@ -1,0 +1,62 @@
+{
+  "dataset_path": "C:\\Users\\mdahs\\OneDrive\\Attachments\\NutriVision-AI\\data\\raw",
+  "scan_status": "Completed successfully.",
+  "total_images": 30,
+  "corrupt_images": [],
+  "duplicate_filenames": [],
+  "duplicate_hash_groups": [],
+  "annotation_formats_detected": [
+    "Classification Folders",
+    "YOLO"
+  ],
+  "bounding_box_available": true,
+  "segmentation_mask_available": false,
+  "freshness_labels_available": true,
+  "freshness_classes": [
+    "fresh_apple",
+    "fresh_banana",
+    "rotten_apple",
+    "rotten_banana"
+  ],
+  "total_classes": 5,
+  "class_names": [
+    "fresh_apple",
+    "fresh_banana",
+    "rotten_apple",
+    "rotten_banana",
+    "salad"
+  ],
+  "class_distribution": {
+    "fresh_apple": 6,
+    "fresh_banana": 6,
+    "rotten_apple": 6,
+    "rotten_banana": 6,
+    "salad": 6
+  },
+  "splits_detected": {
+    "test": 10,
+    "train": 10,
+    "val": 10
+  },
+  "image_resolutions": {
+    "min_width": 320,
+    "max_width": 320,
+    "min_height": 240,
+    "max_height": 240,
+    "mean_width": 320.0,
+    "mean_height": 240.0,
+    "modes": [
+      "RGB"
+    ]
+  },
+  "capabilities": {
+    "food_detection": true,
+    "food_classification": true,
+    "food_segmentation": false,
+    "freshness_detection": true
+  },
+  "missing_data_warnings": [
+    "No segmentation masks or polygon annotations detected."
+  ],
+  "recommended_next_action": "For Module 4 (Segmentation): SAM 2 will be used zero-shot with YOLO bounding-box prompts to extract masks."
+}

@@ -1,0 +1,46 @@
+# ==============================================================================
+# NutriVision AI: Requirements
+# An Intelligent Food Recognition, Weight Estimation, Freshness Detection,
+# and Nutritional Analysis System Using Computer Vision
+# ==============================================================================
+
+# --- Deep Learning & Computer Vision Foundations ---
+torch>=2.2.0
+torchvision>=0.17.0
+torchaudio>=2.2.0
+numpy>=1.24.0,<3.0.0
+pillow>=10.0.0
+opencv-python>=4.8.0
+
+# --- Object Detection & Segmentation ---
+ultralytics>=8.3.0               # YOLO11 for food detection
+# Note: SAM 2 can be installed via: pip install git+https://github.com/facebookresearch/segment-anything-2.git
+timm>=0.9.16                     # EfficientNet-B4 and backbone architectures
+
+# --- Monocular Depth Estimation & Math ---
+scipy>=1.11.0
+
+# --- Explainability & Interpretability ---
+grad-cam>=1.5.0                  # Grad-CAM for visual explanations
+
+# --- Backend API & Web Services ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+requests>=2.31.0                 # USDA FoodData Central API queries
+
+# --- Frontend & Interactive Dashboard ---
+streamlit>=1.32.0
+
+# --- Configuration & Data Utilities ---
+pyyaml>=6.0.1
+tqdm>=4.66.0
+matplotlib>=3.8.0
+scikit-learn>=1.4.0
+
+# --- Development, Testing & Code Quality ---
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+black>=24.2.0
+flake8>=7.0.0

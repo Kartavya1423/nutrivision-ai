@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "orange",
+  "normalized_query": "orange",
+  "usda_food_name": "Oranges, raw, all commercial varieties",
+  "usda_fdc_id": 169097,
+  "data_type": "Foundation",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 47.0,
+    "protein_g": 0.94,
+    "carbohydrates_g": 11.75,
+    "fat_g": 0.12,
+    "fiber_g": 2.4,
+    "sodium_mg": 0.0,
+    "potassium_mg": 181.0,
+    "calcium_mg": 40.0,
+    "iron_mg": 0.1,
+    "sugars_g": 9.35
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

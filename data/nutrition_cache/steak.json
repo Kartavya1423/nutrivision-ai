@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "steak",
+  "normalized_query": "steak",
+  "usda_food_name": "Beef, rib eye steak, boneless, cooked",
+  "usda_fdc_id": 174036,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 271.0,
+    "protein_g": 24.8,
+    "carbohydrates_g": 0.0,
+    "fat_g": 19.1,
+    "fiber_g": 0.0,
+    "sodium_mg": 58.0,
+    "potassium_mg": 318.0,
+    "calcium_mg": 18.0,
+    "iron_mg": 2.2,
+    "sugars_g": 0.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-15T12:00:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "pancake",
+  "normalized_query": "pancake",
+  "usda_food_name": "Pancakes, plain, prepared from recipe",
+  "usda_fdc_id": 172890,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 227.0,
+    "protein_g": 6.4,
+    "carbohydrates_g": 28.3,
+    "fat_g": 9.7,
+    "fiber_g": 1.0,
+    "sodium_mg": 439.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

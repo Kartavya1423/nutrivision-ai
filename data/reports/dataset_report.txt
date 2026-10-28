@@ -1,0 +1,43 @@
+======================================================================
+               NutriVision AI -- Dataset Inspection Report              
+======================================================================
+Dataset Directory : C:\Users\mdahs\OneDrive\Attachments\NutriVision-AI\data\raw
+Inspection Status : Completed successfully.
+Total Images      : 30
+Total Classes     : 5
+Detected Formats  : Classification Folders, YOLO
+----------------------------------------------------------------------
+MODULE CAPABILITY READINESS:
+  [1] Food Detection (Bounding Boxes)   : YES (Supported)
+  [2] Food Classification               : YES (Supported)
+  [3] Food Segmentation (Masks/Polygons): NO (Zero-shot SAM 2 required)
+  [4] Freshness Detection               : YES (Supported)
+----------------------------------------------------------------------
+DATASET SPLITS:
+  - test           :     10 images (33.3%)
+  - train          :     10 images (33.3%)
+  - val            :     10 images (33.3%)
+----------------------------------------------------------------------
+IMAGE INTEGRITY & RESOLUTION:
+  Corrupt Images       : 0
+  Duplicate Filenames  : 0
+  Duplicate Content Grp: 0
+  Resolution (W x H)   : Min [320x240] | Max [320x240] | Mean [320.0x240.0]
+  Color Modes          : RGB
+----------------------------------------------------------------------
+CLASSES DETECTED & TOP DISTRIBUTION:
+  - fresh_apple              :      6 samples
+  - fresh_banana             :      6 samples
+  - rotten_apple             :      6 samples
+  - rotten_banana            :      6 samples
+  - salad                    :      6 samples
+----------------------------------------------------------------------
+FRESHNESS CATEGORIES FOUND:
+  fresh_apple, fresh_banana, rotten_apple, rotten_banana
+----------------------------------------------------------------------
+WARNINGS & GAPS:
+  [!] No segmentation masks or polygon annotations detected.
+----------------------------------------------------------------------
+RECOMMENDED NEXT ACTION:
+  For Module 4 (Segmentation): SAM 2 will be used zero-shot with YOLO bounding-box prompts to extract masks.
+======================================================================

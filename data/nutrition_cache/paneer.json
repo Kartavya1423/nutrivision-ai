@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "paneer",
+  "normalized_query": "paneer",
+  "usda_food_name": "Palak Paneer",
+  "usda_fdc_id": 2709631,
+  "data_type": "Survey (FNDDS)",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 101.0,
+    "protein_g": 5.42,
+    "carbohydrates_g": 4.28,
+    "fat_g": 7.02,
+    "fiber_g": 0.9,
+    "sodium_mg": 242.0,
+    "potassium_mg": 244.0,
+    "calcium_mg": 60.0,
+    "iron_mg": 0.55,
+    "sugars_g": 1.89
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "LIVE_USDA",
+  "retrieved_at": "2026-10-20T09:58:58.618160+00:00"
+}

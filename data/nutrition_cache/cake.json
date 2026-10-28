@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "cake",
+  "normalized_query": "cake",
+  "usda_food_name": "Cake, yellow, with chocolate frosting",
+  "usda_fdc_id": 172960,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 389.0,
+    "protein_g": 3.7,
+    "carbohydrates_g": 59.8,
+    "fat_g": 15.6,
+    "fiber_g": 1.6,
+    "sodium_mg": 314.0,
+    "potassium_mg": 142.0,
+    "calcium_mg": 52.0,
+    "iron_mg": 1.4,
+    "sugars_g": 42.1
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-15T12:00:00Z"
+}

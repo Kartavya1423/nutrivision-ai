@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "pizza",
+  "normalized_query": "pizza",
+  "usda_food_name": "Pizza, cheese, regular crust",
+  "usda_fdc_id": 170940,
+  "data_type": "Survey (FNDDS)",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 267.0,
+    "protein_g": 11.3,
+    "carbohydrates_g": 33.0,
+    "fat_g": 9.8,
+    "fiber_g": 2.3,
+    "sodium_mg": 598.0,
+    "potassium_mg": 172.0,
+    "calcium_mg": 188.0,
+    "iron_mg": 2.4,
+    "sugars_g": 3.6
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

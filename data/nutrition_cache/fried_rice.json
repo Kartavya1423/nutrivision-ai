@@ -1,0 +1,25 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "fried_rice",
+  "normalized_query": "fried rice",
+  "usda_food_name": "Rice, fried, meatless",
+  "usda_fdc_id": 2708951,
+  "data_type": "Survey (FNDDS)",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 174.0,
+    "protein_g": 3.84,
+    "carbohydrates_g": 32.5,
+    "fat_g": 3.19,
+    "fiber_g": 1.1,
+    "sodium_mg": 361.0,
+    "potassium_mg": 69.0,
+    "calcium_mg": 11.0,
+    "iron_mg": 0.46,
+    "sugars_g": 0.62
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "LIVE_USDA",
+  "retrieved_at": "2026-10-15T14:33:18.366129+00:00"
+}

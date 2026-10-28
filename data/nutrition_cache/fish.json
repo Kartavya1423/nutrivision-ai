@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "fish",
+  "normalized_query": "fish",
+  "usda_food_name": "Fish, salmon, Atlantic, cooked, dry heat",
+  "usda_fdc_id": 173686,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 206.0,
+    "protein_g": 22.1,
+    "carbohydrates_g": 0.0,
+    "fat_g": 12.3,
+    "fiber_g": 0.0,
+    "sodium_mg": 61.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

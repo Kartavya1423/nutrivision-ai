@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "dumpling",
+  "normalized_query": "dumpling",
+  "usda_food_name": "Dumplings, pork and vegetable, steamed",
+  "usda_fdc_id": 173215,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 175.0,
+    "protein_g": 8.5,
+    "carbohydrates_g": 22.0,
+    "fat_g": 5.8,
+    "fiber_g": 1.5,
+    "sodium_mg": 420.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "peach",
+  "normalized_query": "peach",
+  "usda_food_name": "Peaches, yellow, raw",
+  "usda_fdc_id": 169929,
+  "data_type": "Foundation/SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 39.0,
+    "protein_g": 0.91,
+    "carbohydrates_g": 9.54,
+    "fat_g": 0.25,
+    "fiber_g": 1.5,
+    "sodium_mg": 0.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-18T22:00:00Z"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "mango",
+  "normalized_query": "mango",
+  "usda_food_name": "Mangos, raw",
+  "usda_fdc_id": 169910,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 60.0,
+    "protein_g": 0.82,
+    "carbohydrates_g": 14.98,
+    "fat_g": 0.38,
+    "fiber_g": 1.6,
+    "sodium_mg": 1.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

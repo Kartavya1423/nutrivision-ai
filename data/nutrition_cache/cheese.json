@@ -1,0 +1,21 @@
+{
+  "status": "AVAILABLE",
+  "error_code": null,
+  "food_name": "cheese",
+  "normalized_query": "cheese",
+  "usda_food_name": "Cheese, cheddar",
+  "usda_fdc_id": 173418,
+  "data_type": "SR Legacy",
+  "serving_size_g": 100.0,
+  "nutrients_per_100g": {
+    "calories_kcal": 403.0,
+    "protein_g": 24.9,
+    "carbohydrates_g": 1.28,
+    "fat_g": 33.14,
+    "fiber_g": 0.0,
+    "sodium_mg": 621.0
+  },
+  "source": "USDA FoodData Central",
+  "provenance": "CACHED_USDA",
+  "retrieved_at": "2026-10-01T10:00:00Z"
+}

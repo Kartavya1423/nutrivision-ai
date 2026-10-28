@@ -1,0 +1,115 @@
+{
+  "checkpoint": "D:\\NutriVision-AI (2)\\NutriVision-AI\\models\\fruit_classifier\\best_model.pth",
+  "test_samples": 90,
+  "test_accuracy": 0.9444,
+  "mean_confidence": 0.9453,
+  "macro_avg": {
+    "precision": 0.948266806722689,
+    "recall": 0.9444444444444445,
+    "f1-score": 0.9450546903967371,
+    "support": 90.0
+  },
+  "weighted_avg": {
+    "precision": 0.9482668067226891,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.9450546903967371,
+    "support": 90.0
+  },
+  "per_class": {
+    "Apple_Good": {
+      "precision": 1.0,
+      "recall": 0.9333,
+      "f1-score": 0.9655,
+      "support": 15.0
+    },
+    "Banana_Good": {
+      "precision": 0.9375,
+      "recall": 1.0,
+      "f1-score": 0.9677,
+      "support": 15.0
+    },
+    "Guava_Good": {
+      "precision": 0.9286,
+      "recall": 0.8667,
+      "f1-score": 0.8966,
+      "support": 15.0
+    },
+    "Lime_Good": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 15.0
+    },
+    "Orange_Good": {
+      "precision": 0.8235,
+      "recall": 0.9333,
+      "f1-score": 0.875,
+      "support": 15.0
+    },
+    "Pomegranate_Good": {
+      "precision": 1.0,
+      "recall": 0.9333,
+      "f1-score": 0.9655,
+      "support": 15.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      14,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      15,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      13,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      15,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      14
+    ]
+  ],
+  "class_names": [
+    "Apple_Good",
+    "Banana_Good",
+    "Guava_Good",
+    "Lime_Good",
+    "Orange_Good",
+    "Pomegranate_Good"
+  ],
+  "freshness_note": "All classes in this dataset contain '_Good' suffixes. Evaluated metrics reflect botanical fruit recognition capability, not rotten/spoiled freshness discrimination."
+}

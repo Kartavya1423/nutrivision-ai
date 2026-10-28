@@ -1,0 +1,110 @@
+﻿# ==========================================
+# NutriVision AI - Git Ignore
+# ==========================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/secrets.yaml
+secrets/
+*.pem
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing and linting cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+data/cache/
+
+# Ignore model checkpoints by default
+models/**/*.pth
+models/**/*.pt
+models/**/*.ckpt
+models/**/*.onnx
+models/**/*.engine
+models/**/*.safetensors
+models/**/*.pb
+models/**/*.h5
+
+# Allow the newly trained fruit classifier
+!models/classification/fruit_classifier_corrected_split/best_model.pth
+
+# Training outputs
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+checkpoints/
+outputs/
+artifacts/
+*.tfevents.*
+
+# Temporary archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Logs
+*.log
+logs/
+
+# Databases and temporary files
+*.sqlite
+*.sqlite3
+*.db
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+temp_tree/
